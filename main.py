@@ -6,8 +6,8 @@ from wtforms.validators import DataRequired
 import csv
 
 '''
-Red underlines? Install the required packages first: 
-Open the Terminal in PyCharm (bottom left). 
+Red underlines? Install the required packages first:
+Open the Terminal in PyCharm (bottom left).
 
 On Windows type:
 python -m pip install -r requirements.txt
@@ -64,4 +64,4 @@ def cafes():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=9000)
