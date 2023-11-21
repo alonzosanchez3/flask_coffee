@@ -9,6 +9,8 @@
 
     {% block styles %}
       {{bootstrap.load_css() }}
+      <link rel="stylesheet" href="{{url_for('.static', filename='css/styles.css')}}">
+
     {% endblock %}
     <title>{% block title %}{% endblock %}</title>
   </head>
